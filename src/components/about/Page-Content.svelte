@@ -1,16 +1,16 @@
 <script>
-  import Team from './Team.svelte'
+  import Team from "./Team.svelte";
 </script>
 
 <div class="container">
   <!-- PAGE CONTENT : begin -->
   <div id="page-content">
-    <h2>
+    <h2 class="mb-4 pl-4" style="text-align: left;">
       <strong>SabiMan</strong> have <strong>the best and experienced</strong><br
       />service providers and handyman with the best Technologies combined.
     </h2>
 
-    <h3 style="color:purple"><strong>About SabiMan</strong></h3>
+    <h3 class="mt-4" style="color:purple"><strong>About SabiMan</strong></h3>
     <p style="font-size:18px;" class="text-justify">
       SabiMan is a multi-service marketplace company that connects service
       providers from various sectors to potential and already existing clients. <br
@@ -22,7 +22,7 @@
     <br />
     <hr />
 
-    <article class="text-justify">
+    <div class="text-justify">
       <h3 style="color:purple"><strong>Why SabiMan?</strong></h3>
       <span style="font-size: 18px;"
         >Nigeria is a country blessed with various kind of talented and skillful
@@ -38,11 +38,11 @@
         service providers and service users and vice versa, whereas, reducing
         unemployment and idleness in the society.
       </span>
-    </article>
+    </div>
 
     <hr class="c-divider m-size-medium" />
 
-    <article class="text-justify">
+    <div class="text-justify">
       <h3 style="color:purple"><strong>SabiMan Assurance</strong></h3>
       <span style="font-size: 18px;">
         Understanding the security risk that goes with the handyman industry, <strong
@@ -53,15 +53,17 @@
         <strong>SabiMan Agents.</strong><br />
         <p>
           That is, <strong>SabiMan</strong> will never send a random stranger to
-          your home or office, no, never. <b />
+          your home or office, no, never. <br />
           <br /><strong>That is a guarantee!</strong>
         </p>
       </span>
-    </article>
+    </div>
+
+    <hr class="c-divider m-size-medium" />
+
+    <Team />
 
     <hr class="c-divider m-size-medium" />
   </div>
   <!-- PAGE CONTENT : end -->
-
-  <Team />
 </div>

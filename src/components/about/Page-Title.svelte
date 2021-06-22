@@ -1,3 +1,7 @@
+<script>
+  export let currentPage = 'About Sabiman'
+</script>
+
 <!-- PAGE TITLE : begin -->
 <div id="page-title" class="m-parallax">
   <!-- PAGE TITLE TOP : begin -->
@@ -6,7 +10,7 @@
       <!-- PAGE TITLE TEXT : begin -->
       <div class="page-title-text">
         <div class="container">
-          <h1>About SabiMan</h1>
+          <h1>{currentPage}</h1>
         </div>
       </div>
       <!-- PAGE TITLE TEXT : end -->
@@ -23,7 +27,7 @@
           <div class="page-title-breadcrumbs">
             <ul>
               <li><a href="index.html">Home</a></li>
-              <li>About Sabiman</li>
+              <li>{currentPage}</li>
             </ul>
           </div>
           <!-- PAGE TITLE BREADCRUMBS : end -->
