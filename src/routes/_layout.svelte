@@ -13,5 +13,5 @@
 	<main id="core">
 		<slot></slot>
 	</main>
-	<Footer {segment} />
+	<Footer />
 </main>

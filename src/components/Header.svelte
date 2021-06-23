@@ -13,6 +13,14 @@
       link: "contact",
       text: 'contact'
     },
+    {
+      link: "link-to-login",
+      text: "login"
+    },
+    {
+      link: "link-to-signup",
+      text: "signup"
+    }
   ]
 
   const handleClick = () => {
@@ -58,7 +66,7 @@
 
       <!-- NAVIGATION TOGGLE : begin -->
       <button class="header-navigation-toggle" type="button"
-        ><i class="fa fa-bars" /></button
+        ><i class="fa fa-bars"></i></button
       >
       <!-- NAVIGATION TOGGLE : end -->
 
